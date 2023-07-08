@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro&amp;display=swap"rel="stylesheet');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: "Castoro", serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.header-font {
+  font-size: 128px;
+  letter-spacing: 0.96rem;
+}
+
+.header {
+  padding-top: 160px;
+}
+.header img {
+  margin: 0 auto;
+}
+.header p {
+  text-align: right;
+}
+
+.bg-gray {
+  background-color: #efefef;
+  margin-bottom: 80px;
+}
+
+.introduce {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.introduce p {
+  width: 49%;
+  font-size: 32px;
+  margin-left: auto;
+}
+
+.info {
+  margin-bottom: 120px;
+}
+.info-list {
+  width: 49%;
+}
+.info-list-item h3 {
+  border-bottom: 3px solid #ae0000;
+  font-size: 40px;
+  color: #ae0000;
+}
+.info-list-item:first-child li {
+  margin-bottom: 8px;
+}
+.info-list-item:last-child li {
+  margin-bottom: 12px;
+}
+.info-list-content {
+  padding: 16px 0 40px 0;
+}
+.info-list-content li {
+  margin-bottom: 16px;
+}
+.info-list-content li:last-child {
+  margin-bottom: 0;
+}
+.info-list-link, .info-list-text {
+  font-size: 24px;
+}
+.info-list-date {
+  font-size: 20px;
+  font-style: italic;
+  color: #949494;
+}
+
+.footer {
+  padding: 64px 0;
+  background-color: black;
+}
+.footer ul {
+  text-align: center;
+}
+.footer li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+.footer li:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=all.css.map */
