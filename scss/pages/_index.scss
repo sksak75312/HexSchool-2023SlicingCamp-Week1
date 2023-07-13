@@ -1,26 +1,3 @@
-.container {
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 0 12px;
-}
-
-.header-font {
-  font-size: 128px;
-  letter-spacing: 0.96rem;
-}
-
-.header {
-  padding-top: 160px;
-
-  img {
-    margin: 0 auto;
-  }
-
-  p {
-    text-align: right;
-  }
-}
-
 .bg-gray {
   background-color: #efefef;
   margin-bottom: 80px;
@@ -76,29 +53,14 @@
       font-size: 24px;
     }
 
+    &-link:hover {
+      color:#ae0000;
+    }
+
     &-date {
       font-size: 20px;
       font-style: italic;
       color: #949494;
-    }
-  }
-}
-
-.footer {
-  padding: 64px 0;
-  background-color: black;
-
-  ul {
-    text-align: center;
-  }
-
-  li {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 40px;
-
-    &:last-child {
-      margin-right: 0;
     }
   }
 }

@@ -1,0 +1,22 @@
+.footer {
+  padding: 64px 0;
+  background-color: black;
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 40px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+}

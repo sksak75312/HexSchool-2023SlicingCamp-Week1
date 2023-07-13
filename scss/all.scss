@@ -1,2 +1,11 @@
-@import "./reset";
-@import "./index"
+// base
+@import './base/reset';
+@import './base/base';
+@import './base/fontStyle';
+
+// layout
+@import './layout/header';
+@import './layout/footer';
+
+// pages 
+@import './pages/index';
