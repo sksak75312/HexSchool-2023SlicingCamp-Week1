@@ -1,6 +1,5 @@
 // base
 @import './base/reset';
-@import './base/base';
 @import './base/fontStyle';
 
 // layout
@@ -9,3 +8,6 @@
 
 // pages 
 @import './pages/index';
+
+// utils
+@import './utils/helpers';
